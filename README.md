@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/kevincastro015/TheDomainGenerator)
+
 # The Domain Name Generator
 
 Finding a domain name is hard, why not automate it? :)
