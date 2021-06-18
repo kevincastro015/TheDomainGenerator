@@ -1,4 +1,3 @@
-<!-- set python server.py -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,23 @@
 
     <p> <button onclick="domainName()"> Domain Generator</button> </p>
 
-    <script type="text/javascript" scr="bundlebundle.js"></script>
+    <script type="text/javascript" scr="app.js">function domainName() {
+let pronoun = ['the','our'];
+let adj = ['great', 'big' ];
+let noun = ['jogger','racoon'];
+
+  let UL = document.createElement ("UL")
+  
+      for(let i=0; i <pronoun.length; i++) {
+          for (let j=0; j < adj.length; j++) {
+              for (let k = 0; k < noun.length; k++) {
+                  let li = document.createElement ("LI")
+                li.innerHTML = pronoun[i]+adj[i]+noun[i]+".com"
+                UL.appendChild(li)
+              }
+          }
+      }document.body.appendChild(UL)
+}</script>
     
 </body>
 </html>
